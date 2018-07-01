@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --browser chrome",
+    "cypress:run": "cypress run",
     "eslint": "eslint ."
   },
   "author": "Colin Skow",
