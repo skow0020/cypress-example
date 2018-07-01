@@ -3,14 +3,6 @@ language: node_js
 node_js:
   - 6
 
-## Cache folders with installed NPM modules
-## to avoid downloading Cypress again and again
-cache:
-  directories:
-    - ~/.npm
-    - node_modules
-    - /home/travis/.cache/Cypress
-
 install:
   - npm i
 
