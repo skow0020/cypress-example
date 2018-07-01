@@ -20,4 +20,4 @@ script:
   ## CYPRESS_RECORD_KEY environment
   ## variable by default and apply
   ## this to the run.
-  - npm run cypress:run
+  - npm run cypress:run -- --record --key cc2b3d4b-8813-4231-9a5d-f32ad216ebfb
